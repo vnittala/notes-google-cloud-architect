@@ -28,7 +28,7 @@ Pricing is based on Compute Engine usage.
 ## Standard vs Flexible
 
 |                     | Standard Environment     | Flexible Environment |
-|---------------------|--------------------------|----------------------|
+| ------------------- | ------------------------ | -------------------- |
 | Instance startup    | Milliseconds             | Minutes              |
 | SSH Access          | No                       | Yes (not default)    |
 | Scaling             | Manual, Basic, Automatic | Manual, Automatic    |

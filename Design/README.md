@@ -5,8 +5,8 @@ Design first, dimension later.
 ## Design Process
 
 1. Begin simply. Iterate.
-1. Plan for failure.
-1. Measure everything.
+2. Plan for failure.
+3. Measure everything.
 
 ## General Solution
 

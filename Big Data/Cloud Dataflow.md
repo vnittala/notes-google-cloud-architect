@@ -23,7 +23,6 @@ Based off the [Apache Beam](https://beam.apache.org/) open-source project.
 * PCollection: A set of data in your Pipeline.
 * Transformation: Processing done on the PCollections in the Pipeline.
 
-
 Simple Pipeline:
 
 ```md

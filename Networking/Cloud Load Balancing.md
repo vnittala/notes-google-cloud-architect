@@ -3,7 +3,7 @@
 [Google Cloud Load Balancing](https://cloud.google.com/compute/docs/load-balancing/) can be used to load balance user requests among sets of instances.
 
 | Name      | Internet | Internal | Single Region | Multi-Region  |
-|-----------|----------|----------|---------------|---------------|
+| --------- | -------- | -------- | ------------- | ------------- |
 | HTTP(S)   | Yes      | No       | Yes           | Yes           |
 | SSL Proxy | Yes      | No       | No            | Yes           |
 | TCP Proxy | Yes      | No       | No            | Yes           |

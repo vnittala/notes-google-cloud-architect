@@ -20,7 +20,7 @@ VPC Network Details:
 * Subnets:
   * Are the logical isolation partitions for the VPC network.
   * They contain a defined IP range. Instances and other resource draw from this range.
-  * Are regional and span zones in the region.
+  * **Are regional and span zones in the region.**
 * Projects are provided with a default network:
   * Has preset configurations and firewall rules.
   * Can be customized.
@@ -51,5 +51,28 @@ Connecting your office directly to the Google network you will have private acce
 There are three options to interconnect:
 
 1. VPN and Cloud Router.
-1. Cloud Interconnect.
-1. Direct Peering.
+2. Cloud Interconnect.
+3. Direct Peering.
+   1. Connecting two VPC networks within and across organizations using private google network
+      1. Advantages
+         1. Lower Network Latency
+         2. Network Security
+         3. Network Costs
+4. Shared VPC
+   1. Host and Shared projects
+
+
+
+## Multiple Network Interfaces
+
+Google Cloud Virtual Private Networks (VPC) are by default isolated private networking domains, however there are cases where a machine might need to connect to multiple VPC networks. In such cases VM's can create additional network interfaces (with internal/external ip address) connecting to different VPC networks without direct communication between them (though same host)
+
+- Use cases
+  
+  - Load Balancers
+  
+  - Intrusion Detection and Prevention (IDP/IPS)
+  
+  - Web Application Firewall (WAF)
+  
+  - WAN

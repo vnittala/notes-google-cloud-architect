@@ -2,12 +2,12 @@
 
 [![Compute Options](https://storage.googleapis.com/gweb-cloudblog-publish/images/GCP2Bcompute2Bservice2Bladder51qi.max-1200x1200.PNG)](https://cloud.google.com/blog/products/gcp/time-to-hello-world-vms-vs-containers-vs-paas-vs-faas)
 
-|               | Compute Engine     | Kubernetes Engine   | App Eng Standard            | App Eng Flexible     | Cloud Functions            |
-|---------------|--------------------|---------------------|-----------------------------|----------------------|----------------------------|
-| Language      | Any                | Any                 | Java,Python,Node.JS,Go,PHP  | Any                  | Node.JS,Python             |
-| Service Model | IaaS               | Hybrid (IaaS/PaaS)  | PaaS                        | PaaS                 | Microservices Architecture |
-| Scaling       | Server Autoscaling | Cluster             | Autoscaling                 | Autoscaling          | Serverless                 |
-| Primary Use   | VM Workloads       | Container Workloads | Web/APIs                    | Web/APIs, Container  | Lightweight Event Actions  |
+|               | Compute Engine     | Kubernetes Engine   | App Eng Standard           | App Eng Flexible    | Cloud Functions            |
+| ------------- | ------------------ | ------------------- | -------------------------- | ------------------- | -------------------------- |
+| Language      | Any                | Any                 | Java,Python,Node.JS,Go,PHP | Any                 | Node.JS,Python             |
+| Service Model | IaaS               | Hybrid (IaaS/PaaS)  | PaaS                       | PaaS                | Microservices Architecture |
+| Scaling       | Server Autoscaling | Cluster             | Autoscaling                | Autoscaling         | Serverless                 |
+| Primary Use   | VM Workloads       | Container Workloads | Web/APIs                   | Web/APIs, Container | Lightweight Event Actions  |
 
 _Note: GKE is a Container First system while GAE is a Code First system._
 

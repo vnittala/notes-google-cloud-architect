@@ -3,7 +3,7 @@
 [Google Cloud Interconnect](https://cloud.google.com/interconnect/) provides options to connect your networks together using Dedicated Interconnect, IPsec VPN, Direct Peering, or Carrier Peering.
 
 | Interconnect                                   | Peering                                   |
-|------------------------------------------------|-------------------------------------------|
+| ---------------------------------------------- | ----------------------------------------- |
 | Direct access to RFC1918 IPs in your VPC (SLA) | Access to Google public IPs only (No SLA) |
 | Dedicated Interconnect                         | Direct Peering                            |
 | IPsec VPN                                      | Carrier Peering                           |

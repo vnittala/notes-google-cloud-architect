@@ -5,9 +5,9 @@ Automating infrastructure within Google Cloud Platform ensures you have repeatab
 Steps to automate include:
 
 1. Use a base or imported or snapshot image.
-1. Customise the image.
-1. Author startup and shutdown scripts.
-1. Create an instance template.
+2. Customise the image.
+3. Author startup and shutdown scripts.
+4. Create an instance template.
 
 ## Images
 

@@ -27,3 +27,14 @@
   * Can be virtual defined by an SQL query.
   * Can be external (federated).
   * Can query Cloud Storage directly.
+* Storage Optimization
+  * Use the expiration settings to remove unneeded tables and partitions
+    * Dataset
+      * bq update --default_table_expiration 300(seconds) project_id: dataset
+    * Tables
+      * Table expiration timestamp can be setup with ALTER table command using "expiration_timestamp" 
+        * Table expiration preceeds over Dataset table expiration setting
+      * Partition expiration can be set using "partition_expiration_days" at the table level
+      * If the tables are partitioned by date, the dataset's default table expiration applies to the individual partitions.
+    * Take advantage of long-term storage
+      * If tables/paritions are NOT accessed for 90 days, they're charged with different pricing model (close to Cloud Storage Nearline costs)

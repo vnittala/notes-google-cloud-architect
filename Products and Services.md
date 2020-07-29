@@ -11,7 +11,7 @@
 
 * App Engine:
 * Container Engine:
-* Compute Enging:
+* Compute Engine:
 
 ## Storage
 

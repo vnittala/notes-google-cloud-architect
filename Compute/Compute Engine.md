@@ -83,7 +83,7 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
   * RAM required so larger machine type needed.
 
 |              | Persistent HDD | Persistent SSD | Local SSD         | RAM     |
-|--------------|----------------|----------------|-------------------|---------|
+| ------------ | -------------- | -------------- | ----------------- | ------- |
 | Redundancy   | Yes            | Yes            | No                | No      |
 | Encryption   | Yes            | Yes            | Yes               | N/A     |
 | Snapshotting | Yes            | Yes            | No                | No      |
@@ -91,7 +91,7 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
 | Use Case     | Bulk File      | Random IOPS    | High IOPS Low Lat | Low Lat |
 
 | No of Cores | Disk Limit |
-|-------------|------------|
+| ----------- | ---------- |
 | Shared Core | 16         |
 | 1 Core      | 32         |
 | 2-4 Cores   | 64         |
@@ -100,7 +100,7 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
 ## Moving a VM to a new zone
 
 * Manual process:
-  * Shapshot all persistent disks on the source VM.
+  * Snapshot all persistent disks on the source VM.
   * Create new persistent disks in destination zone restored from snapshots.
   * Promote ephemeral external IP to static external IP.
   * Create new VM in the destination zone and attach new persistent disks.
@@ -163,6 +163,6 @@ Google Compute Engine lets you create and run virtual machines on Google infrast
 ### Autoscaler Configuration
 
 1. Create instance template (startup scripts, shutdown scripts, software, logging).
-1. Create managed instance group.
-1. create autoscaler.
-1. Optionally, define multiple policies.
+2. Create managed instance group.
+3. create autoscaler.
+4. Optionally, define multiple policies.
